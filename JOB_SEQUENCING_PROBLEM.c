@@ -90,7 +90,7 @@ int main()
 
     int * slot_array = (int*)calloc(max_deadline,sizeof(int));
 
-    heap_sort(arr,n); /// SORTING THE JOBS ACCORDING TO THEIR MAXIMUM PROFIT PER WEIGHT
+    heap_sort(arr,n); /// SORTING THE JOBS ACCORDING TO THEIR MAXIMUM PROFIT
 
     float total_profit = 0;
 
